@@ -55,7 +55,7 @@ while True:
         new_salary = float(input("Enter new salary: "))
         update_employee_salary(ssn, new_salary)
     elif choice == '5':
-        ssn = input("Enter SSN of the employee to delete: ")
+        ssn = input("Enter SSSSN of the employee to delete: ")
         delete_employee_by_ssn(ssn)
     elif choice == '6':
-        break   
+        break  
